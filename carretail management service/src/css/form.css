@@ -1,0 +1,27 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    border-radius: 8px;
+    background-color: rgb(205, 209, 216);
+}
+
+.form-control{
+    height:30px !important;
+    border-radius: 3px !important;
+    border: none;
+}
+
+
+.formlogoimage{
+    border-radius: 20px;
+    height: 100%;
+    width:85%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+.formlogoimage{
+    width:100%;
+}
+}
